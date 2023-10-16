@@ -1,0 +1,37 @@
+header {
+
+    font-family: 'Shadows Into Light', cursive;
+    color: blueviolet;
+    text-align: center; margin-top: 3%; margin-bottom: 3%;
+    font-size: 10mm;
+    border: 10px dotted violet    
+}
+
+body {
+    background-color: papayawhip;
+}
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+    color: blueviolet;
+}
+
+
+ul {
+    font-family: 'Shadows Into Light', cursive;
+    color: blueviolet;
+    
+}
+
+#imagen {
+    max-width: 99%;
+}
+
+fieldset {
+    font-family: 'Shadows Into Light', cursive;
+    max-width: 30%
+
+}
+
+
+

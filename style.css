@@ -2,9 +2,11 @@ header {
 
     font-family: 'Shadows Into Light', cursive;
     color: blueviolet;
-    text-align: center; margin-top: 3%; margin-bottom: 3%;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
     font-size: 10mm;
-    border: 10px dotted violet    
+    border: 10px dotted violet
 }
 
 body {
@@ -20,7 +22,7 @@ p {
 ul {
     font-family: 'Shadows Into Light', cursive;
     color: blueviolet;
-    
+
 }
 
 #imagen {
@@ -30,8 +32,18 @@ ul {
 fieldset {
     font-family: 'Shadows Into Light', cursive;
     max-width: 30%
-
 }
 
-
-
+.huellitas {
+    margin-left: 400px;
+    position: relative;
+    bottom: 200px;
+}
+h2 {
+    margin-left: 800px;
+    position: relative;
+    bottom: 350px;
+    font-family: 'Shadows Into Light', cursive;
+    color: blueviolet;
+    list-style: square;
+}

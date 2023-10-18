@@ -10,45 +10,78 @@ header {
 }
 
 
-@media (min-width: 1px) {
-body { 
-    background-color: papayawhip;
+@media (min-width: 300px) {
+    body {
+        background-color: papayawhip;
+    }
 }
+
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+    color: blueviolet;
 }
 
 
-    p {
-        font-family: 'Shadows Into Light', cursive;
-        color: blueviolet;
+ul {
+    font-family: 'Shadows Into Light', cursive;
+    color: blueviolet;
+
+}
+
+#imagen {
+    max-width: 99%;
+}
+
+fieldset {
+    font-family: 'Shadows Into Light', cursive;
+    max-width: 30%
+}
+
+.huellitas {
+    
+    position: relative;
+    
+ 
+}
+
+h2 {
+    margin-left: 800px;
+    position: relative;
+    bottom: 350px;
+    font-family: 'Shadows Into Light', cursive;
+    color: blueviolet;
+    list-style: square;
+}
+
+.perrito3 {
+    margin-left: 500px;
+    position: relative;
+    bottom: 200px;
+    width: 200px;
+    animation-name: destello;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes destello{ 
+    0%{
+        transform: scale(1);
     }
-
-
-    ul {
-        font-family: 'Shadows Into Light', cursive;
-        color: blueviolet;
-
+    20%{
+        transform: scale(1.5);
     }
-
-    #imagen {
-        max-width: 99%;
+    40%{
+        transform: scale(1);
     }
-
-    fieldset {
-        font-family: 'Shadows Into Light', cursive;
-        max-width: 30%
+    60%{
+        transform: scale(1.5);
     }
-
-    .huellitas {
-        margin-left: 400px;
-        position: relative;
-        bottom: 200px;
+    80%{
+        transform: scale(1);
     }
-
-    h2 {
-        margin-left: 800px;
-        position: relative;
-        bottom: 350px;
-        font-family: 'Shadows Into Light', cursive;
-        color: blueviolet;
-        list-style: square;
+    100%{
+        transform: scale(1.5);
     }
+    
+}

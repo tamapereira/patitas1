@@ -41,7 +41,7 @@ fieldset {
 h2 {
     margin-left: 800px;
     position: relative;
-    bottom: 350px;
+    bottom: 400px;
     font-family: 'Shadows Into Light', cursive;
     color: blueviolet;
     list-style: square;
@@ -62,19 +62,31 @@ h2 {
         transform: scale(1);
     }
     20%{
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
     40%{
-        transform: scale(1);
+        transform: scale(1.1);
     }
     60%{
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
     80%{
         transform: scale(1);
     }
     100%{
-        transform: scale(1.5);
+        transform: scale(1.1);
     }
     
+}
+
+.nav-enlace{
+    display: inline-block;
+    background-color: pink;
+    color: blueviolet;
+    padding: 10px 30px;
+    font-family: 'Shadows Into Light', cursive;
+    text-decoration: none;
+}
+.nav-enlace:hover{
+    background: rosybrown;
 }

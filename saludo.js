@@ -1,7 +1,3 @@
-let nombre = prompt("Ingresa tu nombre");
+var nombre = "Patitas"
 
-function saludar(nombre) {
-    alert("Hola " + nombre +  " Bienvenid@ a Patitas!!")
-}
-
-(saludar(nombre));
+alert("Hola! Bienvenid@ a " + nombre);
